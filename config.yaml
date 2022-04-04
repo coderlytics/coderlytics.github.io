@@ -2,3 +2,8 @@ baseURL: https://coderlytics.at/
 languageCode: en-us
 title: coderlytics.at
 theme: hugo-profile
+
+footer:
+  socialNetworks:
+    github: https://github.com/coderlytics/
+    linkedin: https://www.linkedin.com/in/michael-sieber/
