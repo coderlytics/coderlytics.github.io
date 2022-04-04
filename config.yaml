@@ -3,6 +3,10 @@ languageCode: en-us
 title: coderlytics.at
 theme: hugo-profile
 
+theme:
+  disableThemeToggle: true
+  defaultTheme: dark
+
 contact:
   enable: false
 
