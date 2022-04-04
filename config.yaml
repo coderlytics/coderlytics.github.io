@@ -1,3 +1,4 @@
 baseURL: https://coderlytics.at/
 languageCode: en-us
 title: coderlytics.at
+theme: hugo-profile
