@@ -3,6 +3,9 @@ languageCode: en-us
 title: coderlytics.at
 theme: hugo-profile
 
+contact:
+  enable: false
+
 footer:
   socialNetworks:
     github: https://github.com/coderlytics/
