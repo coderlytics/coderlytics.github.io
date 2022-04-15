@@ -1,16 +1,11 @@
 baseURL: https://coderlytics.at/
-languageCode: en-us
 title: coderlytics.at
-theme: hugo-profile
+theme: hugo-geekblog
 
-theme:
-  disableThemeToggle: true
-  defaultTheme: dark
-
-contact:
-  enable: false
-
-footer:
-  socialNetworks:
-    github: https://github.com/coderlytics/
-    linkedin: https://www.linkedin.com/in/michael-sieber/
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  tableOfContents:
+    startLevel: 1
+    endLevel: 9
