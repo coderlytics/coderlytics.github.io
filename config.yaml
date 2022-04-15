@@ -2,6 +2,18 @@ baseURL: https://coderlytics.at/
 title: coderlytics.at
 theme: hugo-geekblog
 
+pygmentsUseClasses: true
+pygmentsCodeFences: true
+timeout: 180000
+pluralizeListTitles: false
+
+defaultContentLanguage: en
+
+disablePathToLower: true
+enableGitInfo: true
+
+enableRobotsTXT: true
+
 markup:
   goldmark:
     renderer:
@@ -9,3 +21,19 @@ markup:
   tableOfContents:
     startLevel: 1
     endLevel: 9
+
+taxonomies:
+  author: authors
+  tag: tags
+
+outputs:
+  home:
+    - HTML
+  page:
+    - HTML
+  section:
+    - HTML
+  taxonomy:
+    - HTML
+  term:
+    - HTML
