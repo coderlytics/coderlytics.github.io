@@ -37,3 +37,31 @@ outputs:
     - HTML
   term:
     - HTML
+
+params:
+  subtitle: Blog about my daily work as an IT leader
+  description: "This is a blog about my daily work as an IT leader"
+  keywords: []
+  images: []
+
+  # (Optional, default 6) Set how many table of contents levels to be showed on page.
+  # Use false to hide ToC, note that 0 will default to 6 (https://gohugo.io/functions/default/)
+  # You can also specify this parameter per page in front matter.
+  geekblogToC: 3
+
+  # (Optional, default none) Add a link to your Legal Notice page to the site footer.
+  # It can be either a remote url or a local file path relative to your content directory.
+  geekblogLegalNotice: /legal
+
+  # (Optional, default none) Add a link to your Privacy Policy page to the site footer.
+  # It can be either a remote url or a local file path relative to your content directory.
+  geekblogPrivacyPolicy: /privacy
+
+  # (Optional, default none) Sites main author.
+  geekblogAuthor: michael-sieber
+
+  # (Optional, default none) Adds a "Content licensed under <license>" line to the footer.
+  # Could be used if you want to define a default license for your content.
+  geekblogContentLicense:
+    name: CC BY-SA 4.0
+    link: https://creativecommons.org/licenses/by-sa/4.0/
