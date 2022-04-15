@@ -1,4 +1,5 @@
 ---
-footer:
+header:
   - name: About me
+    icon: gblog_person
     ref: /about-me
