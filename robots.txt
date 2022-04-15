@@ -2,4 +2,4 @@ User-agent: *
 Disallow: /categories/*
 Disallow: /tags/*
 
-Sitemap: https://coderlytics.at/sitemap.xml
+Sitemap: https://coderlytics.github.io/sitemap.xml
